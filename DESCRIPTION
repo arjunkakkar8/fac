@@ -1,0 +1,17 @@
+Package: facage
+Type: Package
+Title: Determines Statistics on Age of Williams College Faculty
+Version: 0.0.0.9000
+Date: 2016-02-04
+Author: Arjun Kakkar [aut,cre]
+Maintainer: Arjun Kakkar <ak23@williams.edu>
+Description: This package loads data on ages of the Williams College faculty from 2001 to 2014 from natively stored text files. It also displays statistics and graphics regarding different aspects of the age distribution accross years.
+License: GPL-2
+LazyData: TRUE
+Imports: stringr,
+         ggplot2,
+RoxygenNote: 5.0.1
+Suggests: testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
